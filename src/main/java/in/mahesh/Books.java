@@ -8,6 +8,7 @@ import jakarta.persistence.Id;
 public class Books {
 	@Id
 	private Integer bookId;
+	int i=0;
 	private String bookName;
 	private double bookPrice;
 	public int getBookId() {
